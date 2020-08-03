@@ -13,7 +13,7 @@ public class MergeSort {
             return;
         }
         int middle = L + ((R - L) >> 1);
-        mergeSortHelper(arr,L,middle);;
+        mergeSortHelper(arr,L,middle);
         mergeSortHelper(arr,middle+1,R);
 
         merge(arr,L,R);
